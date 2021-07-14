@@ -2,44 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--This title explain waht the webApps does-->
     <title>BUD quick reference for repacking in Pharmacy</title>
+    <!--the is the style link-->
     <link rel="stylesheet" href="style.css">
+    <!--this is the javascript link-->
     <script src="script.js"></script>
     
 </head>
 <body>
-    
+    <!--header-->
         <header>
             <div id="branding">
                 <h1><span class="highlight">Pharma</span> WebApps Design</h1>
             </div>
         </header>
+
+        <!--AppLogo-->
+        <div class="calenderlog">
+            <img class="calenderlog image-resize" src="image/calender.png" alt="calenderlogo">
+            </div>
     
     <div class="container">
         
         <form>
-            <div class="calenderlog">
-            <img src="image/calender.png" alt="calenderlogo">
-            </div>
+            
+            <!--field -->
             <fieldset>
                 <div>
                 <label for="Item">Select Item:</label>
                 <select  id="Item" onchange="lItem();">
-                    <optgroup class="dropdown" label="Nonsterile Compounding">
-                        <option>.............</option>
+                    <!--Option value to help in selecting one item by a time-->
+                    
+                        <option disabled selected>....................Select here.......................</option>
                         <option value="180">Bactroban Nasal Ointment</option>
                         <option value="14">Budesonide Repulse</option>
                         <option value="14">Gabapentin Oral Solution</option>
-                        <option value="14">Lorazepam 2mg/ml  Oral Solutiont</option>
+                        <option value="14">Lorazepam 2mg/ml  Oral Solution</option>
                         <option value="14">Prednisolone Oral Solution</option>
                         <option value="14">Risperidone Oral Solution</option>
-                    </optgroup>
+    
                 </select> 
                 </div>
+                <!--Assigned Days code-->
                 <div>
                 <label for="Days">Assigned Days:</label>  
                 <input  type="number" id="days">
                 </div>
+                <!--I included onclick to help the user to check the expiration date by a simple click-->
                 <div>
                     <label for="Check">To know expiration date:</label>
                     <input type="button" value="Click Here" onclick="ExpirationDate()">
@@ -50,11 +60,13 @@
                 </div>
             </fieldset>  
         </form>
+        <!--Phrase to inform user what the Apps does-->
         <p>
         <h2>BUD quick reference for repacking in Pharmacy</h2>
         </p>
 
     </div>
-    <div class="footer"> BUD Apps © 2021&nbsp; &nbsp; &nbsp; </div>
+    <!--Footer-->
+    <div class="footer">  Copyright © 2021. BUD Apps,<br> All Rights reserved </div>
 </body>
 </html>
