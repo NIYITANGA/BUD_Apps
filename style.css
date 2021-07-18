@@ -4,6 +4,7 @@
          ========================================================  */
 
 /*===== This applies from 0px to 767px=====*/
+@media only screen and (max-width: 767px)
 
   body
   {
