@@ -18,6 +18,7 @@
     color:#ffff;
     padding-top: 2px;
     height: 80px;
+
     border-bottom: green 10px solid;
   }
   
@@ -81,7 +82,7 @@
         }
   
         select#Item {
-          width: 320px;
+          max-width: 690px;
           height: 30px;
           font-size: 15px;
           border-radius: 20px;
@@ -109,14 +110,14 @@
       }
   
       input {
-        width: 150px;
+        max-width: 150px;
         height: 40px;
         border-radius: 30px 0 0 30px;
         font-size: 20px;
       }
   
       input#ExpDate {
-        width: 150px;
+        max-width: 150px;
         height: 35px;
         border-radius: 0 30px 30px 0;
         text-align: center;
