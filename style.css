@@ -4,7 +4,7 @@
          ========================================================  */
 
 /*===== This applies from 0px to 767px=====*/
-@media only screen and (max-width: 767px)
+
 
   body
   {
@@ -38,24 +38,23 @@
           
      
     /* ----calenderLogo layout---- */
-    .calenderlog
-    {
-      text-align:center;
-    }
+    
   
     img.calenderlog.image-resize {
       height: 100px;
       padding-top: 10%;
+      padding-left: 40%;
     }
   
   
      /*-----Container layout-----*/
       .container
         { 
-          position: fixed;  
-          top: 50%;
+          position: relative;  
           left: 50%;
           height: 10px;
+          max-width: 367px;
+          margin: 20px 1px;
           transform: translate(-50%, -50%);
         }
           
@@ -157,6 +156,7 @@
         padding-bottom: 2px;
       }
 
+
     /* ====================================
     desktop & laptop Layout styles
     =================================  */
@@ -179,28 +179,32 @@ header .highlight {
 
 h1{
   font-size: 25px;
+  max-width: 600px;
+  margin: auto;
   }
 
  /* ----calenderLogo layout---- */
  img.calenderlog.image-resize {
   padding-top: 5%;
-  text-align: center;
+  
+  padding-left: 48%;
 }
 
 
 /*-----Container layout-----*/
   .container
   { 
+    position: fixed;
     top: 65%;
     left: 50%;
-    width: 600px;
+    max-width: 600px;
     height: 100px;
   }
 
   fieldset
  {
    border-radius: 40px 40px;
-   padding: 10 5px; 
+   width: 600px;
  }
  
  select#Item {
@@ -237,3 +241,9 @@ h1{
 
   }
 }
+
+
+
+
+/* <meta charset="UTF-8">*/
+/*<meta http-equiv="X-UA-Compatible" content="IE=edge">*/
