@@ -55,11 +55,11 @@
      /*-----Container layout-----*/
       .container
         { 
-          position: relative;  
+          position: fixed;  
           left: 50%;
+          top: 50%;
           height: 10px;
           max-width: 367px;
-          margin: 100px 1px;
           transform: translate(-50%, -50%);
         }
           
