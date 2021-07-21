@@ -47,8 +47,8 @@
   
     img.calenderlog.image-resize {
       height: 100px;
-      padding-top: 10%;
-      padding-left: 36%;
+      margin: 20px auto 20px;
+      display: block;
     }
   
   
@@ -192,9 +192,8 @@ h1{
 
  /* ----calenderLogo layout---- */
  img.calenderlog.image-resize {
-  padding-top: 5%;
-  
-  padding-left: 48%;
+  margin: 50px auto 20px;
+  display: block;
 }
 
 
@@ -238,7 +237,8 @@ h1{
 
     input#ExpDate {
       height: 30px;
-      font-size: 15px;
+      font-size: 20px;
+      max-width: 150px;
   }
 
  /* ----h2 layout---- */
@@ -250,8 +250,4 @@ h1{
 }
 
 
-
-
-/* <meta charset="UTF-8">*/
-/*<meta http-equiv="X-UA-Compatible" content="IE=edge">*/
 
