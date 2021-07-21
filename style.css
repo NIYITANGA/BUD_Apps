@@ -48,7 +48,7 @@
     img.calenderlog.image-resize {
       height: 100px;
       padding-top: 10%;
-      padding-left: 40%;
+      padding-left: 36%;
     }
   
   
@@ -57,7 +57,7 @@
         { 
           position: fixed;  
           left: 50%;
-          top: 50%;
+          top: 42%;
           height: 10px;
           max-width: 367px;
           transform: translate(-50%, -50%);
@@ -86,7 +86,7 @@
         }
   
         select#Item {
-          max-width: 690px;
+          max-width: 300px;
           height: 30px;
           font-size: 18px;
           border-radius: 20px;
@@ -114,14 +114,15 @@
       }
   
       input[type="button"] {
-        width: 165px;
+        width: 150px;
         max-width: 300px;
         height: 40px;
-        border-radius: 30px 0 0 30px;
+        border-radius: 30px 0px 0px 30px;
+        text-align: center;
         font-size: 25px;
     }
       input#ExpDate {
-        max-width: 150px;
+        max-width: 125px;
         height: 35px;
         border-radius: 0 30px 30px 0;
         text-align: center;
