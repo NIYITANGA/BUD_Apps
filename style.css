@@ -59,7 +59,7 @@
           left: 50%;
           top: 42%;
           height: 10px;
-          max-width: 370px;
+          max-width: 370gitpx;
           transform: translate(-50%, -50%);
         }
           
@@ -114,8 +114,8 @@
       }
   
       input[type="button"] {
-        width: 148px;
-        max-width: 300px;
+        
+        max-width: 1250px;
         height: 40px;
         border-radius: 30px 0px 0px 30px;
         text-align: center;
@@ -126,7 +126,7 @@
         height: 35px;
         border-radius: 0 30px 30px 0;
         text-align: center;
-        font-size: 25px;
+        font-size: 23px;
       }
   
      
