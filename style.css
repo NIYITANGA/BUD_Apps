@@ -92,6 +92,7 @@
           border-radius: 20px;
           -webkit-box-sizing: border-box;
           -webkit-appearance: none;
+          background: azure;
       }
   
     option {
