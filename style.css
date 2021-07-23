@@ -59,7 +59,7 @@
           left: 50%;
           top: 42%;
           height: 10px;
-          max-width: 370gitpx;
+          max-width: 370px;
           transform: translate(-50%, -50%);
         }
           
@@ -180,15 +180,64 @@
 /*===== This applies when a mobile is rotated =====*/
 
 @media only screen and (orientation:landscape){
-  #turn{ display:block; }
-  #container{ display:none; }
+  
+  /* ----Header layout---- */
+  
+  header {
+    height: 60px;
 }
 
-@media only screen and (orientation:portrait){
-  #turn{ display:none; }
-  #container{ display:block; }
+  /* ----calenderLogo layout---- */
+    
+  
+  img.calenderlog.image-resize {
+    height: 50px;
+    margin: 1px auto 20px;
+  }
+
+/*-----Container layout-----*/
+
+form {
+  width: 550px;
 }
 
+.container
+{
+    position: fixed;
+    top: 54%;
+    left: 50%;
+    max-width: 600px;
+    height: 88px;
+}
+
+
+
+label 
+  { 
+    width: 200px;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+ }
+
+ select#Item {
+  max-width: 300px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  -webkit-appearance: none;
+  background: azure;
+             }
+
+  /* ----Footer layout---- */
+
+  .footer {
+    height: 28px;
+    font-size: 11px;
+}
+
+}
 
     /* ====================================
     desktop & laptop Layout styles
@@ -220,6 +269,7 @@ h1{
  img.calenderlog.image-resize {
   margin: 50px auto 20px;
   display: block;
+  height: 100px;
 }
 
 
