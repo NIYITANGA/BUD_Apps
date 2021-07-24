@@ -179,7 +179,7 @@
 
 /*===== This applies when a mobile is rotated =====*/
 
-@media only screen and (orientation:landscape), only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+@media only screen and (orientation:landscape){
   
   /* ----Header layout---- */
   
@@ -201,7 +201,7 @@
     
   
   img.calenderlog.image-resize {
-    height: 50px;
+    height: 70px;
     margin: 1px auto 20px;
   }
 
@@ -347,5 +347,38 @@ form {
 
 }
 
+/* =====================================================
+    landscape Layout styles to target Google Pixel 2 XL
+    ====================================================  */
 
 
+@media only screen 
+and (min-width: 412px), 
+only screen and (min-height: 823px), 
+only screen and (orientation: landscape)
+     {
+
+/* ----Header layout---- */
+
+    header {
+      height: 50px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-top: -7px;
+  }
+
+/*-----Container layout-----*/  
+
+  img.calenderlog.image-resize {
+    margin: 13px auto;
+}
+
+/*-----Container layout-----*/
+
+form {
+  margin: 20px auto 30px;
+}
+
+}
