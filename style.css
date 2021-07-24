@@ -381,4 +381,9 @@ form {
   margin: 20px auto 30px;
 }
 
+/* ----Footer layout---- */
+.footer {
+  height: 15px;
+}
+
 }
