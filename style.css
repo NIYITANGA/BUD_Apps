@@ -179,7 +179,7 @@
 
 /*===== This applies when a mobile is rotated =====*/
 
-@media only screen and (orientation:landscape){
+@media only screen and (orientation:landscape), only screen and (-webkit-min-device-pixel-ratio: 4){
   
   /* ----Header layout---- */
   
