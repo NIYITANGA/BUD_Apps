@@ -372,13 +372,13 @@ only screen and (orientation: landscape)
 /*-----Container layout-----*/  
 
   img.calenderlog.image-resize {
-    margin: 13px auto;
+    margin: 2px auto;
 }
 
 /*-----Container layout-----*/
 
 form {
-  margin: 20px auto 30px;
+  margin: 3px auto 30px;
 }
 
 /* ----Footer layout---- */
