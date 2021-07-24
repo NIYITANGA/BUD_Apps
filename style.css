@@ -183,9 +183,8 @@
   
   /* ----Header layout---- */
   
-  header {
-    height: 30px;
-    margin: auto;
+  header{
+    margin: -6px auto;
      }
 
    span.highlight {
@@ -194,7 +193,8 @@
 
 
     h1 {
- margin-top: -6px;
+ margin-top: -5px;
+ margin-bottom: 2px;
       }  
 
   /* ----calenderLogo layout---- */
@@ -202,7 +202,7 @@
   
   img.calenderlog.image-resize {
     height: 70px;
-    margin: 1px auto 20px;
+    margin: 15px auto;
   }
 
 /*-----Container layout-----*/
@@ -253,6 +253,39 @@ label
 
 }
 
+/* =====================================================
+    landscape Layout styles to target Google Pixel 2 XL
+    ====================================================  */
+
+
+    @media only screen 
+    and (min-width: 412px), 
+    only screen and (min-height: 823px)
+         {
+    
+    /* ----Header layout---- */
+    
+        header{
+          height: 10%;
+           }
+    
+        h1 {
+          font-size: auto;
+      }
+    
+    /*-----Container layout-----*/  
+    
+    form {
+      margin: 3px auto 30px;
+    }
+    
+    /* ----Footer layout---- */
+    .footer {
+      height: auto;
+    }
+    
+    }
+
     /* ====================================
     desktop & laptop Layout styles
     =================================  */
@@ -261,8 +294,8 @@ label
 
   @media only screen and (min-width: 768px) {
  /* ----Header layout---- */
- header{
-  height: 100px;
+ header::after{
+  height: 10px;
   padding-top: 1mm;
   border-bottom: green 15px solid;
 }
@@ -280,9 +313,8 @@ h1{
 
  /* ----calenderLogo layout---- */
  img.calenderlog.image-resize {
-  margin: 50px auto 20px;
+  margin: 30px auto 20px;
   display: block;
-  height: 100px;
 }
 
 
@@ -290,7 +322,7 @@ h1{
 
 form {
   width: 800px;
-  margin: 50px auto 2px;
+ 
 }
 
 
@@ -344,51 +376,5 @@ form {
   font-size: 15px;
 }
 
-
-}
-
-/* =====================================================
-    landscape Layout styles to target Google Pixel 2 XL
-    ====================================================  */
-
-
-@media only screen 
-and (min-width: 412px), 
-only screen and (min-height: 823px), 
-only screen and (orientation: landscape)
-     {
-
-/* ----Header layout---- */
-
-    header {
-      height: 50px;
-      border-bottom: green 9px solid;
-}
-
-
-    }
-
-    h1 {
-      font-size: 20px;
-      margin-top: -7px;
-  }
-
-/*-----Container layout-----*/  
-
-  img.calenderlog.image-resize {
-    margin: 2px auto;
-    height: 80px;
-}
-
-/*-----Container layout-----*/
-
-form {
-  margin: 3px auto 30px;
-}
-
-/* ----Footer layout---- */
-.footer {
-  height: 15px;
-}
 
 }
