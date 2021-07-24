@@ -373,6 +373,7 @@ only screen and (orientation: landscape)
 
   img.calenderlog.image-resize {
     margin: 2px auto;
+    height: 80px;
 }
 
 /*-----Container layout-----*/
