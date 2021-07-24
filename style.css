@@ -362,6 +362,10 @@ only screen and (orientation: landscape)
 
     header {
       height: 50px;
+      border-bottom: green 9px solid;
+}
+
+
     }
 
     h1 {
