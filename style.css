@@ -179,7 +179,7 @@
 
 /*===== This applies when a mobile is rotated =====*/
 
-@media only screen and (orientation:landscape), only screen and (-webkit-min-device-pixel-ratio: 4){
+@media only screen and (orientation:landscape){
   
   /* ----Header layout---- */
   
@@ -337,6 +337,14 @@ form {
  font-size: 20px;
 
   }
+
+ /* ----Footer layout---- */
+ .footer {
+  height: 30px;
+  font-size: 15px;
+}
+
+
 }
 
 
