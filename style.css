@@ -179,7 +179,7 @@
 
 /*===== This applies when a mobile is rotated =====*/
 
-@media only screen and (orientation:landscape){
+@media only screen and (orientation:landscape), only screen and (-webkit-min-device-pixel-ratio: 4){
   
   /* ----Header layout---- */
   
@@ -240,80 +240,6 @@ label
   .footer {
     height: 28px;
     font-size: 11px;
-}
-
-}
-
-  
-
-/* ====================================
-  landscape Layout styles for samsung
-  =================================  */
-
-/*===== This applies when a mobile is rotated =====*/
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3)
-{
-                                                                                                                                                   
-/* ----Header layout---- */
-
-header {
-  height: 60px;
-  margin: auto;
-}
-
-h1 {
-margin-top: -6px;
-}
-
-/* ----calenderLogo layout---- */
-  
-
-img.calenderlog.image-resize {
-  height: 50px;
-  margin: 1px auto 20px;
-}
-
-/*-----Container layout-----*/
-
-form {
-width: 550px;
-}
-
-.container
-{
-  position: fixed;
-  top: 54%;
-  left: 50%;
-  max-width: 600px;
-  height: 88px;
-}
-
-
-
-label 
-{ 
-  width: 200px;
-  text-align: left;
-  font-size: 15px;
-  display: inline-block;
-}
-
-select#Item {
-max-width: 300px;
-height: 30px;
-font-size: 18px;
-border-radius: 20px;
--webkit-box-sizing: border-box;
--webkit-appearance: none;
-background: azure;
-           }
-
-/* ----Footer layout---- */
-
-.footer {
-  height: 28px;
-  font-size: 11px;
 }
 
 }
