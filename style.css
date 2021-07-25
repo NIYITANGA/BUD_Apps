@@ -185,7 +185,7 @@
     
       img.calenderlog.image-resize 
       {
-       height: 50px;
+       height: 70px;
        margin: 1px auto;
       }    
 
@@ -317,6 +317,7 @@
       h2
       { 
        font-size: 20px;
+       margin-top: 25px;
       }
  
  /* ----Footer layout---- */
