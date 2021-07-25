@@ -1,123 +1,107 @@
-
-      /* ======================================================
+/* ======================================================
                  Mobile Layout styles : core styles
-         ========================================================  */
-
-
-
+   ========================================================  */
          
-
 /*===== This applies from 0px to 767px=====*/
 
-
-  body
-  {
-    background-color: lightgray;
+     body
+      {
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
     
-  }
+      }
 
-  /* ----Header layout---- */
-  header{
-    background-color:#35424a;
-    color:#ffff;
-    padding-top: 2px;
-    height: 80px;
-
-    border-bottom: green 10px solid;
-  }
+/* ----Header layout---- */
+      header
+      {
+        background-color:#35424a;
+        color:#ffff;
+        padding-top: 2px;
+        height: 80px;
+        border-bottom: green 10px solid;
+      }
   
-  
-    /* ----h1 layout---- */
+/* ----h1 layout---- */
 
-    h1{
-      font-size: 20px;
-      text-align: center;
-    }
+      h1
+      {
+        font-size: 20px;
+        text-align: center;
+      }
 
-      header .highlight {
+      header .highlight 
+      {
         font-size: 6vmax;
         color:rgb(72, 209, 233);
-        font-weight:inherit;
         font-family:"Segoe Script";
       }
           
-     
-    /* ----calenderLogo layout---- */
+/* ----calenderLogo layout---- */
     
-  
-    img.calenderlog.image-resize {
-      height: 100px;
-      margin: 20px auto 20px;
-      display: block;
-    }
-  
-  
-     /*-----Container layout-----*/
-      .container
-        { 
-          position: fixed;  
-          left: 50%;
-          top: 42%;
-          height: 10px;
-          max-width: 370px;
-          transform: translate(-50%, -50%);
-        }
-          
-      fieldset
-        {
-          background: #000c0b;
-          font-family: "Segoe Print";
-          border-radius: 40px 40px;
-        }
-           
-      label 
-        { 
-          color:white;
-          width: 300px;
-          text-align: left;
-          font-size: 20px;
-          display:block;
-          transition: .5s;
-        }
-
-        #Item *
-        {
-           background-color:rgb(178 236 247);  
-        }
-  
-        select#Item {
-          max-width: 300px;
-          height: 30px;
-          font-size: 18px;
-          border-radius: 20px;
-          -webkit-box-sizing: border-box;
-          -webkit-appearance: none;
-          background: azure;
+      img.calenderlog.image-resize 
+      {
+        max-width: 100px;
+        margin: 10% auto;
+        display: block;
       }
   
-    option {
-      font-size: 15px;
-      
-  }
-  
-  select {
-    overflow: -moz-hidden-unscrollable !important;
-  
-  }
+/*-----Container layout-----*/
+      .container
+      { 
+        position: fixed;  
+        left: 50%;
+        top: 42%;
+        height: 10px;
+        max-width: 370px;
+        transform: translate(-50%, -50%);
+      }
+          
+      fieldset
+      {
+        background: #000c0b;
+        font-family: "Segoe Print";
+        border-radius: 40px 40px;
+      }
+           
+      label 
+      { 
+        color:white;
+        width: 300px;
+        text-align: left;
+        font-size: 20px;
+        display:block;
+        transition: .5s;
+      }
+
+      select#Item 
+      {
+        max-width: 300px;
+        height: 30px;
+        font-size: 18px;
+        border-radius: 20px;
+        -webkit-box-sizing: border-box;
+        -webkit-appearance: none;
+        background: azure;
+      }
     
-      #days {
+      #days 
+      {
         width: 100px;
         height: 30px;
         border-radius: 20px;
       }
   
-      input[type="number" i] {
+      input[type="number" i] 
+      {
         font-size: 18px;
         text-align: center;
       }
   
-      input[type="button"] {
-        
+      input[type="button"] 
+      {
         width: 150px;
         height: 40px;
         -webkit-appearance: none;
@@ -126,40 +110,36 @@
         text-align: center;
         font-size: 20px;
         background: azure;
-    }
-      input#ExpDate {
+      }
+      
+      input[type=button]:hover  
+      {    
+        background: yellowgreen;
+      }
+
+      input#ExpDate 
+      {
         width: 125px;
         height: 30px;
         border-radius: 0 30px 30px 0;
         text-align: center;
         font-size: 20px;
-       
-  
-  
+      }
+           
+/* ----h2 layout---- */
+
+      h2
+      {
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        font-family: "Trebuchet MS";
       }
   
-     
-    
-          
-           input[type=button]:hover
-          
-                {
-          
-              background: yellowgreen;
-                }
-          
-          /* ----h2 layout---- */
-          h2
-          {
-            color: black;
-            text-align: center;
-            font-size: 15px;
-            font-family: "Trebuchet MS";
-          }
-  
-      /* ----Footer layout---- */
-      .footer {
+/* ----Footer layout---- */
 
+      .footer 
+      {
         position: fixed;
         left: 0;
         bottom: 0;
@@ -173,7 +153,7 @@
       }
 
 
-/* ====================================
+      /* ====================================
     landscape Layout styles
     =================================  */
 
@@ -183,73 +163,66 @@
   
   /* ----Header layout---- */
   
-  header{
-    margin: -6px auto;
-     }
+      header
+      {
+       margin: auto;
+       height: 10%;
+      }
 
-   span.highlight {
-  font-size: 4vmax;
-     }
+      span.highlight
+      {
+       font-size: 4vmax;
+      }
 
 
-    h1 {
- margin-top: -5px;
- margin-bottom: 2px;
+      h1 
+      {
+       margin-top: -4px;
+       margin-bottom: 1px;
       }  
 
   /* ----calenderLogo layout---- */
     
-  
-  img.calenderlog.image-resize {
-    height: 70px;
-    margin: 15px auto;
-  }
+      img.calenderlog.image-resize 
+      {
+       height: 70px;
+       margin: 15px auto;
+      }    
 
-/*-----Container layout-----*/
+  /*-----Container layout-----*/
 
-form {
-  width: 550px;
-  height: 110px
-}
+      form 
+      {
+       width: 550px;
+       height: 110px
+      }
 
-.container
-{
-    position: fixed;
-    top: 54%;
-    left: 50%;
-    max-width: 600px;
-    height: 88px;
-}
-
+      .container
+      {
+       top: 54%;
+       max-width: 600px;
+       height: 88px;
+      }
 
 
-label 
-  { 
-    width: 200px;
-    text-align: left;
-    font-size: 15px;
-    display: inline-block;
- }
 
- select#Item {
-  max-width: 300px;
-  height: 30px;
-  font-size: 18px;
-  border-radius: 20px;
-  -webkit-box-sizing: border-box;
-  -webkit-appearance: none;
-  background: azure;
-             }
+      label 
+      { 
+       width: 200px;
+       font-size: 15px;
+       display: inline-block;
+      }
 
   /* ----Footer layout---- */
 
-  .footer {
-    height: 15px;
-    font-size: 11px;
-}
-   .footer br {
-    display: none;
-   }
+      .footer 
+      {
+       font-size: 12px;
+      }
+      .footer br 
+      {
+       display: none;
+      }
 
 }
 
@@ -258,123 +231,109 @@ label
     ====================================================  */
 
 
-    @media only screen 
-    and (min-width: 412px), 
-    only screen and (min-height: 823px)
-         {
+  @media only screen 
+         and (min-width: 822px){
+      
+  /*-----Container layout-----*/  
     
-    /* ----Header layout---- */
+       form 
+       {
+        margin: 60px auto 30px;
+       }
     
-        header{
-          height: 10%;
-           }
-    
-        h1 {
-          font-size: auto;
-      }
-    
-    /*-----Container layout-----*/  
-    
-    form {
-      margin: 3px auto 30px;
-    }
-    
-    /* ----Footer layout---- */
-    .footer {
-      height: auto;
-    }
-    
-    }
+}
 
-    /* ====================================
+
+/* ====================================
     desktop & laptop Layout styles
     =================================  */
 
 /*===== This applies from 768px onwards =====*/
 
-  @media only screen and (min-width: 768px) {
- /* ----Header layout---- */
- header::after{
-  height: 10px;
-  padding-top: 1mm;
-  border-bottom: green 15px solid;
-}
+@media only screen and (min-width: 768px) {
 
-/* ----h1 layout---- */
-header .highlight {
-  font-size: 5vmax;
-}
-
-h1{
-  font-size: 25px;
-  max-width: 600px;
-  margin: 5px auto;
-  }
-
- /* ----calenderLogo layout---- */
- img.calenderlog.image-resize {
-  margin: 30px auto 20px;
-  display: block;
-}
-
-
-/*-----Container layout-----*/
-
-form {
-  width: 800px;
+/* ----Header layout---- */
  
-}
-
-
-  fieldset
- {
-   border-radius: 40px 40px;
-   width: 600px;
- }
+       header::after
+       {
+        height: 10px;
+        padding-top: 1mm;
+        border-bottom: green 15px solid;
+       }
  
- select#Item {
-  width: 268px;
-  font-size: 16px;
-  -webkit-appearance: auto;
- }
-
- label 
- { 
-     width: 296px;
-     text-align: left;
-     font-size: 20px;
-     display: inline-block;
- }
-
- input#days {
-  width: 90px;
-}
-
-      input[type="button"] {
-        width: 100px;
-        height: 35px;
-        font-size: 15px;
-    }
-
-    input#ExpDate {
-      height: 30px;
-      font-size: 20px;
-      width: 158px;
-    
-  }
-
+ /* ----h1 layout---- */
+       header .highlight 
+       {
+        font-size: 5vmax;
+       } 
+ 
+       h1
+       {
+        font-size: 25px;
+        margin: 5px auto;
+        }
+ 
+  /* ----calenderLogo layout---- */
+       img.calenderlog.image-resize 
+       {
+        margin: 50px auto 20px;
+        height: 100px;
+       }
+ 
+ 
+ /*-----Container layout-----*/
+ 
+       form 
+       {
+        width: 800px;
+       }
+ 
+      fieldset
+       {
+        width: 600px;
+       }
+  
+      select#Item 
+       {
+       width: 268px;
+       font-size: 16px;
+       -webkit-appearance: auto;
+       }
+ 
+      label 
+      { 
+       width: 296px;
+       font-size: 20px;
+      }
+ 
+      input#days 
+      {
+       width: 90px;
+      }
+ 
+      input[type="button"] 
+      {
+       width: 100px;
+       height: 35px;
+       font-size: 15px;
+      }
+ 
+      input#ExpDate 
+      {
+       width: 158px;
+      }
+ 
  /* ----h2 layout---- */
-  h2
- { 
- font-size: 20px;
-
-  }
-
+      h2
+      { 
+       font-size: 20px;
+      }
+ 
  /* ----Footer layout---- */
- .footer {
-  height: 30px;
-  font-size: 15px;
-}
+     .footer
+      {
+       height: 30px;
+       font-size: 15px;
+      }
 
-
-}
+ }
