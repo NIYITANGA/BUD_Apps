@@ -185,7 +185,7 @@
     
       img.calenderlog.image-resize 
       {
-       height: 70px;
+       height: 50px;
        margin: 1px auto;
       }    
 
@@ -194,7 +194,7 @@
       form 
       {
        width: 550px;
-       height: 110px
+       height: 104px
       }
 
       .container
@@ -276,6 +276,7 @@
        form 
        {
         width: 800px;
+        height: 110px;
        }
  
       fieldset
