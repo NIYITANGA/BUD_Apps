@@ -44,7 +44,7 @@
       img.calenderlog.image-resize 
       {
         max-width: 100px;
-        margin: 10% auto;
+        margin: 5% auto;
         display: block;
       }
   
@@ -213,7 +213,14 @@
        display: inline-block;
       }
 
-  /* ----Footer layout---- */
+  /* ----h2 layout---- */
+
+      h2
+      {
+        margin-top: 25px;
+      }
+      
+      /* ----Footer layout---- */
 
       .footer 
       {
@@ -224,23 +231,6 @@
        display: none;
       }
 
-}
-
-/* =====================================================
-    landscape Layout styles to target Google Pixel 2 XL
-    ====================================================  */
-
-
-  @media only screen 
-         and (min-width: 822px){
-      
-  /*-----Container layout-----*/  
-    
-       form 
-       {
-        margin: 60px auto 30px;
-       }
-    
 }
 
 
