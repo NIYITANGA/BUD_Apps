@@ -4,8 +4,8 @@ As a pharmacy Technician, I decided to work on this project after realizing that
 This BUD quick reference apps is a smart way of knowing the expiration date of the drugs after being repacked. 
 
 ## Link
-[repo] (https://github.com/NIYITANGA/May-2021-FEWD)
-[Live] (https://niyitanga.github.io/May-2021-FEWD/)
+[repo] (https://github.com/NIYITANGA/BUD_Refence_WebApps.git)
+[Live] (https://niyitanga.github.io/BUD_Refence_WebApps/)
 
 
 ## this Apps was built With
@@ -13,6 +13,19 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 - HTML
 - CSS
 - JavaScript
+
+## Screenshots
+  -  Mobile Layout : (orientation:Portrait)
+
+![Mobile Portrait Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/portrait.png)
+
+  - First media query : (orientation:landscape)
+
+![Mobile Landscape Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/landscape.png)
+
+  - Second media query : Large screen desktop or laptop
+
+![Mobile Desktop Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/desktop.png)
 
 ## Features Included
 
