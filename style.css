@@ -86,7 +86,13 @@
         -webkit-appearance: none;
         background: azure;
       }
-    
+
+      select :nth-of-type(odd) 
+      {
+        color:white;
+        background-color: black;
+      }
+     
       #days 
       {
         width: 100px;
