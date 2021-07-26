@@ -4,8 +4,8 @@ As a pharmacy Technician, I decided to work on this project after realizing that
 This BUD quick reference apps is a smart way of knowing the expiration date of the drugs after being repacked. 
 
 ## Link
-[repo] (https://github.com/NIYITANGA/BUD_Refence_WebApps.git)
-[Live] (https://niyitanga.github.io/BUD_Refence_WebApps/)
+ - [repo] (https://github.com/NIYITANGA/BUD_Refence_WebApps.git)
+ - [Live] (https://niyitanga.github.io/BUD_Refence_WebApps/)
 
 
 ## this Apps was built With
@@ -29,15 +29,20 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 
 ## Features Included
 
-1. CSS Feature : “nth-of-type”
+1. CSS Feature : “nth-of-type”`
+
+    - This is how it looks like on the mobile (orientation:landscape)
+
+   ![nth-of-type Landscape Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/nth-of-type-Landscape.png)
+  
     
-    I used “nth-of-type” to target the odd numbers of the selected-option drugs. In the css file, under container layout of the core style; you can see this
+    I used `“nth-of-type” to target the odd numbers of the selected-option drugs. In the css file, under container layout of the core style; you can see this
     
-      select :nth-of-type(odd) 
+      `select :nth-of-type(odd) 
       {
         color:white;
         background-color: black;
-       }
+       }`
 
 2. JavaScript Feature: displaying Assigned Days
     
