@@ -4,11 +4,11 @@ As a pharmacy Technician, I decided to work on this project after realizing that
 This BUD quick reference apps is a smart way of knowing the expiration date of the drugs after being repacked. 
 
 ## Link
- - [repo] (https://github.com/NIYITANGA/BUD_Refence_WebApps.git)
- - [Live] (https://niyitanga.github.io/BUD_Refence_WebApps/)
+ - [repo] (https://github.com/NIYITANGA/BUD_Reference_WebApps.git)
+ - [Live] (https://niyitanga.github.io/BUD_Reference_WebApps/)
 
 
-## this Apps was built With
+## This WebApps was built With
 
 - HTML
 - CSS
@@ -17,15 +17,15 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 ## Screenshots
   -  Mobile Layout : (orientation:Portrait)
 
-![Mobile Portrait Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/portrait.png)
+![Mobile Portrait Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/portrait.png)
 
-  - First media query : (orientation:landscape)
+  - First media query creates a better layout when a mobile is rotated: (orientation:landscape)
 
-![Mobile Landscape Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/landscape.png)
+![Mobile Landscape Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/landscape.png)
 
-  - Second media query : Large screen desktop or laptop
+  - Second media query creates a better user experience on large screen: desktop and laptop
 
-![Mobile Desktop Layout](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/desktop.png)
+![Mobile Desktop Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/desktop.png)
 
 ## Features Included
 
@@ -51,13 +51,13 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 
 3. JavaScript Feature: displaying date after click
 
-    A `const millisecondsInDay = 24 * 60 * 60 * 1000` , and two more `vars (numberOfDayToAdd and Expdate)` were created and used in the second function.The result of the first function is used also in the second function `function ExpirationDate(date, days)` after being transformed in millisecondInDay  `millisecondsInDay * numberOfDayToAdd`. 
+    A `const millisecondsInDay = 24 * 60 * 60 * 1000` , and two more `vars (numberOfDayToAdd and Expdate)` were created and used in the second function.The result of the first function is used also in the second function `function ExpirationDate(date, days)` after being transformed in millisecondInDay  `(millisecondsInDay * numberOfDayToAdd)`. 
     The calculation of the expiration date is done by adding the transformed assigned days to tody's date with `var=Date.now()`. In order to display the expirtion date in the `format mm/dd/yyyy`; I used the `toLocaleDateString function`.
 
 ## How to use the BUD quick reference Apps
 It is easy to use on mobile (protrait and landscape layout) and computer. 
-   - First step is to cselect the item you are repackaging. If the item is selected , the apps gives you in second the assigned expiration days. 
+   - First step is to select the item you are repackaging. If the item is selected , the apps displays the assigned expiration days automatically. 
    - In case you want to increase or decrease number of days assigned, this apps gives you the option to do that. You can also write the number of days assigned manualy using your keyboard.
-   - To know the expiration date of the selected item, you have to click on the click here button, which will become yellowgreen. The expiration date will appear in the empty box beside the clicked button.
-   - If you want to check BUD of another item, you will select it from the selected options as you did it before in the first step. 
+   - To know the expiration date of the selected item, you have to click on the `click here` button, which will become yellowgreen. The expiration date will appear in the empty box beside the clicked button.
+   - If you want to check BUD of another item, you will select it from the options as you did it previously. 
 
