@@ -261,7 +261,19 @@
 
       .container
       {
-       max-width: 85%;
+       max-width: 83%;
+      }
+
+
+      form 
+      {
+        max-width: 95%;
+      }
+
+      select#Item 
+      {
+        max-width: 230px;
+        font-size: 15px;
       }
 
 
@@ -270,6 +282,16 @@
        width: 200px;
        font-size: 15px;
        display: inline-block;
+      }
+
+      input[type="button"] 
+      {
+        width: 110px;
+      }
+
+      input#ExpDate 
+      {
+        width: 100px;
       }
 
   /* ----h2 layout---- */
@@ -337,6 +359,7 @@
      float: none;
      margin-top: 1px;
      background: #42d3cc;
+     padding: 10px;
    }
 
    nav a 
@@ -357,8 +380,8 @@
 
       select#Item 
        {
-       width: 268px;
-       font-size: 16px;
+       max-width: 273px;
+       font-size: 17px;
        -webkit-appearance: auto;
        }
  
@@ -414,7 +437,7 @@
 /* ----calenderLogo layout---- */
   .calenderlog
   {
-   margin: 70px auto 20px;
+   margin: 90px auto 20px;
    height: 100px;
   }
 
