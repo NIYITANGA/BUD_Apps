@@ -51,40 +51,39 @@
 /*-----Container layout-----*/
       .container
       { 
-        position: fixed;  
-        left: 50%;
-        top: 42%;
-        height: 10px;
-        max-width: 370px;
-        transform: translate(-50%, -50%);
+        max-width: 90%;
+        margin: 0 auto;
       }
-          
+
+      
       fieldset
       {
         background: #000c0b;
         font-family: "Segoe Print";
         border-radius: 40px 40px;
+        max-width: max-content;
+        margin: auto;
       }
            
       label 
       { 
         color:white;
-        width: 300px;
         text-align: left;
         font-size: 20px;
         display:block;
-        transition: .5s;
+      
       }
 
       select#Item 
       {
-        max-width: 300px;
+        max-width: 290px;
         height: 30px;
         font-size: 18px;
         border-radius: 20px;
         -webkit-box-sizing: border-box;
         -webkit-appearance: none;
         background: azure;
+        
       }
 
       select :nth-of-type(odd) 
@@ -98,6 +97,7 @@
         width: 100px;
         height: 30px;
         border-radius: 20px;
+  
       }
   
       input[type="number" i] 
@@ -116,6 +116,7 @@
         text-align: center;
         font-size: 20px;
         background: azure;
+        
       }
       
       input[type=button]:hover  
@@ -197,20 +198,10 @@
 
   /*-----Container layout-----*/
 
-      form 
-      {
-       width: 550px;
-       height: 104px
-      }
-
       .container
       {
-       top: 54%;
-       max-width: 600px;
-       height: 88px;
+       max-width: 85%;
       }
-
-
 
       label 
       { 
@@ -278,18 +269,7 @@
  
  
  /*-----Container layout-----*/
- 
-       form 
-       {
-        width: 800px;
-        height: 110px;
-       }
- 
-      fieldset
-       {
-        width: 600px;
-       }
-  
+
       select#Item 
        {
        width: 268px;
