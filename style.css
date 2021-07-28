@@ -1,5 +1,5 @@
 /* ======================================================
-                 Mobile Layout styles : core styles
+              For Mobile Portrait View
    ========================================================  */
          
 /*===== This applies from 0px to 767px=====*/
@@ -38,7 +38,42 @@
         color:rgb(72, 209, 233);
         font-family:"Segoe Script";
       }
-          
+
+/* ----Navigation Menu layout---- */
+        nav
+        {
+          width: 100%;
+          text-align: center;
+        }
+
+       
+        nav ul 
+        {
+          float: none;
+          margin-top: 1px;
+          background: #42d3cc;
+          padding: 0;
+        }
+
+        nav li 
+        {
+          display: inline;
+          list-style-type: none;
+        }
+
+        nav a 
+        {
+          display: block;
+          text-decoration: none;
+          color: rgb(14, 15, 15);
+          border-bottom: 1px dotted #ccc;
+          margin: 0;
+          padding: 3px;
+        }
+        nav a:hover 
+        {
+          color: cadetblue;
+        }    
 /* ----calenderLogo layout---- */
     
       img.calenderlog.image-resize 
@@ -55,7 +90,7 @@
         margin: 0 auto;
       }
 
-      
+
       fieldset
       {
         background: #000c0b;
@@ -161,12 +196,12 @@
 
 
       /* ====================================
-    landscape Layout styles
+           For Mobile Landscape View
     =================================  */
 
 /*===== This applies when a mobile is rotated =====*/
 
-@media only screen and (orientation:landscape){
+@media only screen and (orientation: Landscape){
   
   /* ----Header layout---- */
   
@@ -188,12 +223,38 @@
        margin-bottom: 1px;
       }  
 
+
+
+ /* ----Navigation Menu layout---- */
+    
+      nav ul 
+      {
+        float: none;
+        margin-top: 1px;
+        background: #42d3cc;
+      }
+
+      nav a 
+      {
+        text-decoration: none;
+        display:inline;
+        padding: 10px;
+        color: rgb(14, 15, 15);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      nav a:hover 
+      {
+        color: cadetblue;
+      }    
+
+
   /* ----calenderLogo layout---- */
     
       img.calenderlog.image-resize 
       {
        height: 50px;
-       margin: 1px auto;
+       
       }    
 
   /*-----Container layout-----*/
@@ -202,6 +263,7 @@
       {
        max-width: 85%;
       }
+
 
       label 
       { 
@@ -232,7 +294,7 @@
 
 
 /* ====================================
-    desktop & laptop Layout styles
+           For Tablet View
     =================================  */
 
 /*===== This applies from 768px onwards =====*/
@@ -267,6 +329,29 @@
         height: 100px;
        }
  
+
+   /* ----Navigation Menu layout---- */
+    
+   nav ul 
+   {
+     float: none;
+     margin-top: 1px;
+     background: #42d3cc;
+   }
+
+   nav a 
+   {
+     text-decoration: none;
+     display:inline;
+     padding: 10px;
+     color: rgb(14, 15, 15);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   nav a:hover 
+   {
+     color: cadetblue;
+   }    
  
  /*-----Container layout-----*/
 
@@ -315,3 +400,63 @@
       }
 
  }
+
+
+ /* ====================================
+           For Laptop and Desktop View
+    =================================  */
+
+/*===== This applies from 1025px onwards =====*/
+
+@media only screen and (min-width:1025px) {
+
+
+/* ----calenderLogo layout---- */
+  .calenderlog
+  {
+   margin: 70px auto 20px;
+   height: 100px;
+  }
+
+/* ----Navigation Menu layout---- */
+       
+   nav
+   {
+     width: 100%;
+     text-align: center;
+   }
+
+  nav ul 
+  {
+  float:right;
+  line-height: 50px;
+  background: none;
+  }
+  
+   nav li 
+  {
+  display: inline;
+  list-style-type: none;
+  }
+
+  nav a 
+  {
+  text-decoration: none;
+  
+  padding: 10px;
+  color: rgb(14, 15, 15);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  nav a:hover 
+  {
+  color: cadetblue;
+  }
+
+/*-----Container layout-----*/
+  form 
+    {
+    padding-top: 20px;
+    }
+
+}
