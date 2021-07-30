@@ -25,7 +25,7 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 
   - Second media query creates a better user experience on tablet and Ipad screen
 
-![Tablet Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/desktop.png)
+![Tablet Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/tablet.png
 
   - Third media query creates a better user experience on large screen: laptop and desktop
 
@@ -43,7 +43,7 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 
     - This is how it looks like on large screen: laptop and desktop
 
-   ![nth-of-type](https://github.com/NIYITANGA/BUD_Refence_WebApps/blob/master/image/nth-of-type-Landscape.png)
+   ![nth-of-type](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/nth-of-type.png)
   
     
     I used `“nth-of-type”` to target the odd numbers of the selected-option drugs. In the css file, under container layout of the core style; you can see this
