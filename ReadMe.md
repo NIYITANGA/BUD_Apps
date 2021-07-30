@@ -74,4 +74,4 @@ It is easy to use on mobile (protrait and landscape layout) and computer.
 ## Author
 
  **Theophile Niyitanga**
-  - [Email](mailto:theophileca@gmail.com? subject=BUD "Hi!")
+  - [Email](mailto:theophileca@gmail.com?subject=BUD "Hi!")
