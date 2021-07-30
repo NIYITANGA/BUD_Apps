@@ -25,7 +25,7 @@ This BUD quick reference apps is a smart way of knowing the expiration date of t
 
   - Second media query creates a better user experience on tablet and Ipad screen
 
-![Tablet Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/tablet.png
+![Tablet Layout](https://github.com/NIYITANGA/BUD_Reference_WebApps/blob/master/image/tablet.png)
 
   - Third media query creates a better user experience on large screen: laptop and desktop
 
