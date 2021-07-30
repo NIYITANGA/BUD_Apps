@@ -78,7 +78,7 @@
     
       img.calenderlog.image-resize 
       {
-        max-width: 100px;
+        max-width: 60px;
         margin: 5% auto;
         display: block;
       }
@@ -192,6 +192,7 @@
         font-size: 15px;
         padding-top: 3px;
         padding-bottom: 2px;
+        overflow: hidden;
       }
 
 
@@ -248,15 +249,6 @@
         color: cadetblue;
       }    
 
-
-  /* ----calenderLogo layout---- */
-    
-      img.calenderlog.image-resize 
-      {
-       height: 50px;
-       
-      }    
-
   /*-----Container layout-----*/
 
       .container
@@ -268,6 +260,7 @@
       form 
       {
         max-width: 95%;
+        margin-top: -5%;
       }
 
       select#Item 
@@ -348,7 +341,7 @@
        img.calenderlog.image-resize 
        {
         margin: 50px auto 20px;
-        height: 100px;
+        max-width: 100px;
        }
  
 
@@ -378,7 +371,13 @@
  
  /*-----Container layout-----*/
 
-      select#Item 
+        form 
+        {
+        padding-top: 50px;
+
+        }
+ 
+       select#Item 
        {
        max-width: 273px;
        font-size: 17px;
@@ -435,10 +434,10 @@
 
 
 /* ----calenderLogo layout---- */
-  .calenderlog
+  img.calenderlog.image-resize
   {
    margin: 90px auto 20px;
-   height: 100px;
+   max-width: 100px;
   }
 
 /* ----Navigation Menu layout---- */
@@ -479,7 +478,8 @@
 /*-----Container layout-----*/
   form 
     {
-    padding-top: 20px;
+    padding-top: 50px;
+
     }
 
 }
