@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This title explain waht the webApps does-->
+    <title>Beyond Use Date (BUD) Application </title>
+    <!--the is the style link-->
+    <link rel="stylesheet" href="style.css">
+    <!--this is the javascript link-->
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <!--header-->
+        <header>
+            <div id="branding">
+                <h1><span class="highlight">BUD</span>Calculator </h1>
+            </div>
+        </header>
+
+    <!--AppLogo-->
+        <div class="BUDlog">
+            <img class="BUDlog image-resize" src="image/calender.png" alt="calenderlogo">
+            </div>
+
+     <!--Phrase to inform user what the Apps does-->
+     <p>
+        <h2>Enter either<br>Assigned number of months or days. <br> <span>You can not use both at the same time</span></h2>
+        </p>
+    
+    <div class="container">
+        <form>
+            
+            <!--field -->
+            <fieldset>
+                 <!--Assigned Months code-->
+                <div>
+                <label for="Months">Assigned Months:</label>
+                <input  type="number" id="months">
+                </div>
+                <!--Assigned Days code-->
+                <div>
+                <label for="Days">Assigned Days:</label>  
+                <input  type="number" id="days">
+                </div>
+                <!--I included onclick to help the user to check the BUD by a simple click-->
+                <div>
+                    <label for="Check">To know the Beyond Use Date:</label>
+                    <input type="button" value="Click Here" onclick="BeyondUseDate()">
+                      <input id="BUD">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <!--Footer-->
+    <div class="footer">  Copyright © 2021. BUD Apps,<br> All Rights reserved </div>
+</body>
+</html>
