@@ -9,6 +9,7 @@
     <!--the is the style link-->
     <link rel="stylesheet" href="style.css">
     <!--this is the javascript link-->
+    <script src="https://unpkg.com/dayjs"></script>
     <script src="script.js"></script>
     
 </head>
@@ -27,7 +28,7 @@
 
      <!--Phrase to inform user what the Apps does-->
      <p>
-        <h2>Enter either<br>Assigned number of months or days. <br> <span>You can not use both at the same time</span></h2>
+        <h2>Enter either<br>Assigned number of months, days or hours.</h2>
         </p>
     
     <div class="container">
@@ -40,11 +41,19 @@
                 <label for="Months">Assigned Months:</label>
                 <input  type="number" id="months">
                 </div>
-                <!--Assigned Days code-->
+               
+                 <!--Assigned Days code-->
                 <div>
                 <label for="Days">Assigned Days:</label>  
                 <input  type="number" id="days">
                 </div>
+
+                 <!--Assigned hours code-->
+                <div>
+                <label for="hours">Assigned Hours:</label>  
+                <input  type="number" id="hours">
+                </div>
+
                 <!--I included onclick to help the user to check the BUD by a simple click-->
                 <div>
                     <label for="Check">To know the Beyond Use Date:</label>
