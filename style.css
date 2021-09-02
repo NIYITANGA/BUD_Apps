@@ -36,7 +36,7 @@
       {
         font-size: 6vmax;
         color:rgb(72, 209, 233);
-        font-family:"Segoe Script";
+        font-family:cursive;
       }
 
 
@@ -64,7 +64,7 @@
       fieldset
       {
         background: #000c0b;
-        font-family: "Segoe Print";
+        font-family: cursive;
         border-radius: 40px 40px;
         max-width: max-content;
         margin: auto;
@@ -181,7 +181,7 @@
     
   img.BUDlog.image-resize 
   {
-    max-width: 80px;
+    max-width: 50px;
     margin: 1% auto 5%;
     display: block;
   }
@@ -190,14 +190,14 @@
 
       .container
       {
-       max-width: 83%;
+       max-width: 200%;
       }
 
 
       form 
       {
-        max-width: 95%;
-        margin-top: 3%;
+        max-width: 199%;
+        margin-top: -1%;
       }
 
       input#months, #days, #hours 
@@ -210,6 +210,7 @@
        width: 200px;
        font-size: 15px;
        display: inline-block;
+       padding-bottom: 7px;
       }
 
       input[type="button"] 
@@ -219,7 +220,7 @@
 
       input#BUD 
       {
-        width: 100px;
+        width: 180px;
       }
 
   /* ----h2 layout---- */
