@@ -45,7 +45,7 @@
     
       img.BUDlog.image-resize 
       {
-        max-width: 80px;
+        max-width: 60px;
         margin: 1% auto 1%;
         display: block;
       }
@@ -59,7 +59,7 @@
       
       form 
       {
-        margin-top: -3%;
+        margin-top: -15px;
       }
 
       fieldset
