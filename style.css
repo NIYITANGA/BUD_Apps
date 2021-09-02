@@ -44,7 +44,7 @@
     
       img.BUDlog.image-resize 
       {
-        max-width: 100px;
+        max-width: 80px;
         margin: 1% auto 1%;
         display: block;
       }
@@ -64,7 +64,7 @@
       fieldset
       {
         background: #000c0b;
-        font-family: cursive;
+        font-family: comic sans MS;
         border-radius: 40px 40px;
         max-width: max-content;
         margin: auto;
@@ -115,7 +115,7 @@
 
       input#BUD 
       {
-        width: 190px;
+        width: 165px;
         height: 30px;
         border-radius: 0 30px 30px 0;
         text-align: center;
