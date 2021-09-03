@@ -152,6 +152,97 @@
       }
 
 
+
+/* ====================================
+           For iPhone 8 View
+    =================================  */
+
+/*===== This applies when a mobile has iphone 8 size =====*/
+
+@media only screen and (min-width: 375px){
+
+  /* ----calenderLogo layout---- */
+      
+        img.BUDlog.image-resize 
+        {
+          max-width: 100px;
+          margin: 3% auto 1%;
+          display: block;
+        }
+  
+  /*-----Container layout-----*/
+  
+  
+  form 
+  {
+    margin-top: 2px;
+  }
+
+  label
+    {
+      margin-block: 5px;
+    }
+}
+  
+
+
+/* ====================================
+           For iPhone 8 plus View
+    =================================  */
+
+/*===== This applies when a mobile has iphone 8 plus size =====*/
+
+@media only screen and (min-width: 414px){
+
+  /* ----calenderLogo layout---- */
+      
+        img.BUDlog.image-resize 
+        {
+          max-width: 120px;
+          margin: 5% auto 1%;
+          display: block;
+        }
+  
+  /*-----Container layout-----*/
+  
+  
+  form 
+  {
+    margin-top: 2px;
+  }
+    
+  
+  /* ----h2 layout---- */
+
+  h2
+  {
+    
+    font-size: 18px;
+    margin: 0;
+  }
+
+  
+  /*-----Container layout-----*/
+
+  input[type="button"] 
+    {
+      width: 120px;
+      font-size: 18px;
+    }
+
+  input#BUD 
+    {
+      width: 180px;
+      font-size: 17px;
+    }
+    
+  label
+    {
+      margin-block: 10px;
+    }  
+
+
+
       /* ====================================
            For Mobile Landscape View
     =================================  */
